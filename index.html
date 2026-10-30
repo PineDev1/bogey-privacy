@@ -55,7 +55,8 @@
 <p>Gift codes are checked on your device against a list the app downloads. Codes you have used are saved with your progress (and in iCloud if sync is on) so each code can only be used once. Nothing about redeeming a code is sent to us.</p>
 
 <h2>Game Center</h2>
-<p>Multiplayer and leaderboards use Apple's Game Center. If you sign in to Game Center, Apple handles your Game Center name, friends, invites, match data and leaderboard scores under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. During a multiplayer game, your ball's position, scores and Game Center name are shared with the other players in that game. We do not receive or store this information.</p>
+<p>Multiplayer and leaderboards use Apple's Game Center. If you sign in to Game Center, Apple handles your Game Center name, friends, invites, match data and leaderboard scores under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. During a multiplayer game, your ball's position, scores and Game Center name are shared with the other players in that game.</p>
+<p>Usually this goes straight between the players' devices and we never receive it. When the devices can't connect directly (this happens on some Wi-Fi networks), the game is relayed through Google Firebase Realtime Database instead. For that game only, the relay holds your Game Center name and player ID, your ball's position, your scores, and an anonymous Firebase ID created for your device. Only the players in that game can read it. Each device removes its own data when it leaves the game, and anything left behind (for example if the app is closed mid-game) is deleted automatically within 3 hours. We do not use relay data for anything else, link it to your identity, or use it for advertising.</p>
 
 <h2>Children</h2>
 <p>Bogey is not directed at children under 13, and we do not knowingly collect personal information from children.</p>
